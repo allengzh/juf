@@ -23,3 +23,7 @@ juf server start
 ## demo地址
  - [smarty](https://github.com/allengzh/juf-smarty-demo)
  - [blade](https://github.com/allengzh/juf-blade-demo)
+
+## 备注
+ - 由于暂时不支持部署完smarty后再部署blade，这种情况也比较少，如需要建议手动删除www目录再部署（以后尽量会出自动删除命令）
+ - 由于目前mock的数据不是热更新的呃，所以更新mock数据后需要reload下服务器
