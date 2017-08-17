@@ -1,0 +1,55 @@
+{
+  "name": "juf",
+  "version": "1.8.0",
+  "description": "juf 1.8.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "juf"
+  ],
+  "author": "allengzh",
+  "bin": {
+    "juf": "bin/juf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allengzh/juf.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.17.5",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "cross-spawn": "^5.0.1",
+    "css": "^2.2.1",
+    "del": "^2.2.2",
+    "express": "^4.13.3",
+    "glob": "^7.1.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-connect-php": "0.0.5",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-lesshint": "^2.1.0",
+    "gulp-oss-upload": "^1.0.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-ssh": "^0.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "^1.0.6",
+    "http-proxy": "^1.12.0",
+    "jshint": "^2.9.4",
+    "liftoff": "^2.3.0",
+    "lodash": "^4.17.2",
+    "minimist": "^1.2.0",
+    "spritesmith": "^3.1.0",
+    "tar": "^2.2.1"
+  },
+  "license": "BSD"
+}
