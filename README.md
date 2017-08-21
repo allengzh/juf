@@ -24,6 +24,12 @@ juf server start
  - [smarty](https://github.com/allengzh/juf-smarty-demo)
  - [blade](https://github.com/allengzh/juf-blade-demo)
 
+## 关于juf本身的一些核心东西
+ - [前端编译作用](img/前端编译作用.png)
+ - [juf核心构建思路](img/juf.png)
+ - [juf思路来源](img/juf思路来源.png)
+ - [juf一期核心问题点](img/juf一期核心问题点.png)
+
 ## 备注
- - 由于暂时不支持部署完smarty后再部署blade，这种情况也比较少，如需要建议手动删除www目录再部署（以后尽量会出自动删除命令）
- - 由于目前mock的数据不是热更新的呃，所以更新mock数据后需要reload下服务器
+ - 由于一期未考虑清楚文件依赖关系之间如何处理，想了一个笨办法就是1、先把文件都部署到一个临时文件夹，然后生成正确的资源路由映射表（local map文件夹下）；2、然后再从临时文件夹部署到最终部署目录并把代码中资源路径根据资源路由映射表替换
+ - 本地服务器默认目录在`C:\Users\Administrator\AppData\Local`
