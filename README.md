@@ -25,10 +25,10 @@ juf server start
  - [blade](https://github.com/allengzh/juf-blade-demo)
 
 ## 关于juf本身的一些核心东西
- - ![前端编译作用](img/前端编译作用.png)
- - ![juf核心构建思路](img/juf.png)
- - ![juf思路来源](img/juf思路来源.png)
- - ![juf一期核心问题点](img/juf一期核心问题点.png)
+ ![前端编译作用](img/前端编译作用.png)
+ ![juf核心构建思路](img/juf.png)
+ ![juf思路来源](img/juf思路来源.png)
+ ![juf一期核心问题点](img/juf一期核心问题点.png)
 
 ## 备注
  - 由于一期未考虑清楚文件依赖关系之间如何处理，想了一个笨办法就是1、先把文件都部署到一个临时文件夹，然后生成正确的资源路由映射表（local map文件夹下）；2、然后再从临时文件夹部署到最终部署目录并把代码中资源路径根据资源路由映射表替换
